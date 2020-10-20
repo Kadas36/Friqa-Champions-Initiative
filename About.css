@@ -1,5 +1,7 @@
 body{
     text-align: center;
+    background-color: #FF8C00;
+
 }
 #portfolio{
     display: flex;
@@ -17,4 +19,7 @@ body{
     content: "";
     clear: both;
     display: table;
+}
+#overlay1{
+font-style: italic;
 }
