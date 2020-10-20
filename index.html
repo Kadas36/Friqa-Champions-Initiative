@@ -4,142 +4,128 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css-home/bootstrap.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./css-home/home.css" type="text/css" />
     <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="./JS/home.js"></script>
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./JS/home.js"></script>
     <title>Document</title>
   </head>
 
   <body>
-    
     <div class="container-fluid">
-
-       <!--Navbar-->
-    <nav class="navbar navbar-expand-sm ">
-      <a class="navbar-brand" href="#">
-        <img src="./images/unnamed.png" alt="logo" style="width:20%;">
-      </a>
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">GET INVOLVED</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-sm">
+        <a class="navbar-brand" href="#">
+          <img src="./images/unnamed.png" alt="logo" style="width: 20%" />
+        </a>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">GET INVOLVED</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </div>
+      </nav>
+      <!--Carousel-->
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/Img-1.jpg"
+              alt="Los Angeles"
+              max-width="100%"
+              height="auto"
+            />
+            <div class="carousel-caption cap">
+              <h3><b>Are you ready for change?</b></h3>
+              <p>Join us to transform lives!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/img-2.jpg"
+              alt="Chicago"
+              max-width="100%"
+              height="auto"
+            />
+            <div class="carousel-caption cap">
+              <h3><b>First Time Mum Empowered To Navigate</b></h3>
+              <p>Motherhood Confidently Amidst Covid-19!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/img-3.jpg"
+              alt="New York"
+              width="100%"
+              height="auto"
+            />
+            <div class="carousel-caption">
+              <h3><b>Covid-19: Elderly Assistance</b></h3>
+              <p>We love to serve!</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon icon"></span>
+        </a>
       </div>
-  
-    </nav>
-    <div id="demo" class="carousel slide" data-ride="carousel">
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-      </ul>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./images/Img-1.jpg" alt="Los Angeles" width="1100" height="500">
-          <div class="carousel-caption">
-            <h3>Los Angeles</h3>
-            <p>We had such a great time in LA!</p>
-          </div>   
-        </div>
-        <div class="carousel-item">
-          <img src="./images/img-2.jpg" alt="Chicago" width="1100" height="500">
-          <div class="carousel-caption">
-            <h3>Chicago</h3>
-            <p>Thank you, Chicago!</p>
-          </div>   
-        </div>
-        <div class="carousel-item">
-          <img src="./images/img-3.jpg" alt="New York" width="1100" height="500">
-          <div class="carousel-caption">
-            <h3>New York</h3>
-            <p>We love the Big Apple!</p>
-          </div>   
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-    
-      
-      
-
+      <!--Navbar 2-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Friga in</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
+      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">EVENTS </a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ABOUT US
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">PARTNER WITH US</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">OUR CONTACTS</a>
               </div>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                OUR IMPACT
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">DISASTER MANAGEMENT</a>
+                <!-- <a class="dropdown-item" href="#">Another action</a> -->
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"></a>
+              </div>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
       </nav>
@@ -150,16 +136,16 @@
       function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
       }
-      
+
       // Close the dropdown if the user clicks outside of it
-      window.onclick = function(e) {
-        if (!e.target.matches('.dropbtn')) {
-        var myDropdown = document.getElementById("myDropdown");
-          if (myDropdown.classList.contains('show')) {
-            myDropdown.classList.remove('show');
+      window.onclick = function (e) {
+        if (!e.target.matches(".dropbtn")) {
+          var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains("show")) {
+            myDropdown.classList.remove("show");
           }
         }
-      }
-      </script>
+      };
+    </script>
   </body>
 </html>
