@@ -5,25 +5,6 @@
 .navbar-expand-sm {
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
 }
-/* .navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-  } */
-
-/* .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  } */
-
-/* .dropdown {
-    float: left;
-    overflow: hidden;
-  } */
 
 .dropdown .dropbtn {
   cursor: pointer;
@@ -77,6 +58,8 @@
 .icon:hover {
   background-color: red;
 }
+
+/*footer styles*/
 footer {
   background-color: blueviolet;
 }
@@ -163,6 +146,10 @@ section .section-title {
   height: 60vh;
   object-fit: cover;
 }
-/* .social img{
-  justify-content: space-between;
-} */
+
+/*Nav-bar 2*/
+.nav-2{
+  justify-content: space-around;
+  display: flex;
+  padding-top: 2%;
+}
