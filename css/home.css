@@ -154,3 +154,10 @@ section .section-title {
     margin-bottom: 10px;
   }
 }
+.body-cont{
+  justify-content: center;
+  text-align: center;
+}
+/* .social img{
+  justify-content: space-between;
+} */
