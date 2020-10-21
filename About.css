@@ -1,6 +1,9 @@
 body{
     text-align: center;
-    background-color: #FF8C00;
+    /* background-color: #FF8C00; */
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+
 
 }
 #portfolio{
