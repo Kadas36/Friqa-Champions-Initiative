@@ -158,6 +158,11 @@ section .section-title {
   justify-content: center;
   text-align: center;
 }
+.card-im{
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
 /* .social img{
   justify-content: space-between;
 } */
