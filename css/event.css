@@ -55,16 +55,96 @@ h5{
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(../images/womengroup.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fafafa;
+}
+.darkEvent{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1));
+    height: 100%;
+    margin-top: 100px;
 }
 .next{
     display: flex;
-    background-color: rgba(255,140,0,0.5);
-    width: 60%;
+    text-align: center;
+    background-color: rgba(255,140,0,0.7);
+    width: 80%;
+    font-size: medium;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-    position: absolute;
-    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.evtOver{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.titleEventOverview{
+    border-bottom: 1px solid black;
+}
+#overviewDesc{
+    background-color: #ff8c00;
+    color: aliceblue;
+    font-size: 20px;
+    width: 20px;
+    margin-right: 2px;
+}
+.evtOver > img{
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.eventSummary{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255,140,0,1);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 50px;
+}
+.eventSummary p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card img{
+    height: 250px;
+}
+.btn{
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+}
+.btn:hover{
+    background-color: darkgray;
+    border-color: darkgray;
+}
+.allCategory{
+    margin-bottom: 100px;
+}
+.card-img-top{
+    width: 100%;
+}
+.card-body a{
+    margin-right: auto;
+    margin-left: auto;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
+@media only screen and (max-width: 760px){
+    .evtOver img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 300px){
+    .eventSummary p{
+        font-size: smaller;
+    }
+}
