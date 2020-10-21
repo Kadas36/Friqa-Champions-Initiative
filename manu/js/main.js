@@ -39,8 +39,16 @@ $("#natural").click(function() {
     $("#form").show();
 
 });
+$("#natural").click(function() {
+    $(".form1").hide();
+
+});
 $("#man").click(function() {
     $(".form1").show();
+    
+});
+$("#man").click(function() {
+    $("#form").hide();
     
 });
 $(".form").submit(function (event) {
@@ -100,7 +108,7 @@ $("#form1").submit(function (event) {
         alert ("please select the typ of Disaster ")
      }
      else{
-   alert ("Dear" + name2 +"we")
+   alert ("Dear" + name2 +"we ")
 //    console.log(ffgggg);
 //    console.log(name2)
    }

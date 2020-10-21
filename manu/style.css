@@ -20,3 +20,6 @@
 ol{
     margin-left: 40%;
 }
+.col-sm-4 , .col-xs-4 {
+     padding:8px;
+}
