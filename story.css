@@ -1,0 +1,6 @@
+.home {
+    background-image: url(/images/IMG_20180116_155003.jpg);
+    height: 91vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
