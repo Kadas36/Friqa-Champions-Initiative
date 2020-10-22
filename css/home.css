@@ -149,7 +149,7 @@ section .section-title {
 
 /*Nav-bar 2*/
 .nav-2 {
-  justify-content: space-around;
+  /* justify-content: space-around; */
   display: flex;
   padding-top: 2%;
 }
