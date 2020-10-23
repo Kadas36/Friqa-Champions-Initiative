@@ -1,5 +1,8 @@
+*{
+  font-family: "Montserrat", sans-serif;
+}
 #home {
-  background-image: url(/images/dancer.png);
+  background-image: url(../images/dancer.png);
   height: 120vh;
   background-size: cover;
   background-attachment: fixed;
